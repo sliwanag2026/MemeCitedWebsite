@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title> Meme Website</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+            <style>
+                body{
+                    height: auto;
+                }
+                section{
+                    padding-top: 100px;
+                }
+                nav{
+                    background-color: white;
+                    width: 100%;
+                    position: fixed;
+                    border-bottom: 3px solid black;
+                }
+                nav .fluid-container{
+                    height: 75px;
+                }
+                nav .fluid-container .row{
+                    padding: 0 30px;
+                }
+                nav .fluid-container .row .col-lg-6{
+                    padding: 15px 0;
+                }
+                nav .fluid-container .row .col-lg-2{
+                    text-align: center;
+                    padding: 20px 0px;
+                }
+                nav .fluid-container .row .col-lg-2 a{
+                    height: 100%;
+                    width: 100%;
+                    text-decoration: none;
+                    color: black;
+                }
+                nav .fluid-container .row .col-lg-2:hover{
+                    background-color: lightgray;
+                }
+                nav .fluid-container .row .col-lg-2 a:hover{
+                    color: blue;
+                }
+                section .container .row .col-lg-12{
+                    text-align: center;
+                }
+                .image{
+                    width: 90%;
+                    height: auto;
+                    border: 10px solid black;
+                    margin-bottom: 20px;
+                }
+                #abovethat{
+                    border-bottom: 1px solid black;
+                    margin-bottom: 20px;
+                }
+
+                @media only screen and (max-width: 768px){
+                    section{
+                        padding-top: 300px;
+                    }
+                    nav{
+                        margin: 0;
+                    }
+                    .row{
+                        background-color: white;
+                    }
+                    .col-lg-2{
+                        border-top: 2px solid black;
+                    }
+                    #specialcase11{
+                        border-bottom: 2px solid black;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <nav>
+                <div class="fluid-container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3> MemeCited</h3>
+                        </div>
+                        <div class="col-lg-2">
+                            <a href="index.html"> Homepage </a>
+                        </div>
+                        <div class="col-lg-2">
+                            <a href="gaming.html"> Gaming </a>
+                        </div>
+                        <div id="specialcase11" class="col-lg-2">
+                            <a href="pisay.html"> PSHS </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12" style="margin-bottom: 30px;">
+                            <div id="abovethat">
+                                <h1> Gaming Memes</h1>
+                                <p> Are these memes even Gamer?</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" style="text-align: center;">
+                            <img class="image" src="gamingmeme1.jfif" alt="image">
+                            <img class="image" src="gamingmeme3.jfif" alt="image">
+                            <img class="image" src="gamingmeme6.jpg" alt="image">
+                        </div>
+                        <div class="col-lg-6" style="text-align: center;">
+                            <img class="image" src="gamingmeme2.jpg" alt="image">
+                            <img class="image" src="gamingmeme4.jfif" alt="image">
+                            <img class="image" src="gamingmeme5.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+    </html> 
